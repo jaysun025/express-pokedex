@@ -1,0 +1,8 @@
+<h1>These are the best pokemon</h1>
+
+<% pokemons.forEach(pokemon => { %>
+    <form method='GET' action='/pokemon/<%= pokemon.name %>'
+    <p><%= pokemon.name %></p>
+    <button>More Info</button>
+    </form>
+<% }) %>

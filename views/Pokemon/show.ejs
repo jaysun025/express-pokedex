@@ -1,0 +1,9 @@
+<h1><%= name %></h1>
+<image src='<%= image %>'></image>
+
+<p>Type:</p>
+<ul>
+   <% types.forEach(type => { %>
+      <li><%= type.type.name %></li> 
+  <%  }) %>
+</ul>
